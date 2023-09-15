@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#section-1-two-columns",
+    "href": "index.html#section-1-two-columns",
+    "title": "simple_quarto_website",
+    "section": "Section 1: Two Columns",
+    "text": "Section 1: Two Columns"
+  },
+  {
+    "objectID": "index.html#section-1-education-background",
+    "href": "index.html#section-1-education-background",
+    "title": "simple_quarto_website",
+    "section": "Section 1: Education Background",
+    "text": "Section 1: Education Background\n\n\n\n\n\n\n\n\nCollege\nMajor\nDegree\n\n\n\n\nUniversity of Illinois at Urbana-Champaign\nMathematics\nBachelor’s\n\n\nUniversity of Rochester\nBusiness Analytics\nMaster’s\n\n\nGeorgetown University\nData Science and Analytics\nMaster’s"
+  },
+  {
+    "objectID": "index.html#section-2-inline-math-equation",
+    "href": "index.html#section-2-inline-math-equation",
+    "title": "simple_quarto_website",
+    "section": "Section 2: Inline-math equation",
+    "text": "Section 2: Inline-math equation\nHere is an in-line math equation \\(f(x)=\\frac{e^{x^2}}{2}\\)"
+  },
+  {
+    "objectID": "index.html#section-2-math-equation",
+    "href": "index.html#section-2-math-equation",
+    "title": "simple_quarto_website",
+    "section": "Section 2: Math equation",
+    "text": "Section 2: Math equation\nHere is an in-line math equation \\(f(x)=\\frac{e^{x^2}}{2}\\)\nNon inline-math equation:\n\\[g(x)=x^n \\rightarrow \\frac{\\partial g}{\\partial x}=n x^{n-1}\\]"
+  },
+  {
+    "objectID": "index.html#section-3-footnotes",
+    "href": "index.html#section-3-footnotes",
+    "title": "simple_quarto_website",
+    "section": "Section 3: Footnotes",
+    "text": "Section 3: Footnotes\n\n“Take risks now. Do something bold. You won’t regret it.” - Elon Musk"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎\nHere’s one with multiple blocks.\nSubsequent paragraphs are indented to show that they belong to the previous footnote.\n{ some.code }\nThe whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.↩︎"
+  },
+  {
+    "objectID": "index.html#section-4-embedded-images-and-video",
+    "href": "index.html#section-4-embedded-images-and-video",
+    "title": "simple_quarto_website",
+    "section": "Section 4: Embedded images and video",
+    "text": "Section 4: Embedded images and video\n\n\n\nHouston Rockets\n\n\n\n\n\nReal Madrid"
+  },
+  {
+    "objectID": "index.html#section-5-mermaid-diagram",
+    "href": "index.html#section-5-mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "Section 5: Mermaid Diagram",
+    "text": "Section 5: Mermaid Diagram\n\n\n\n\nflowchart LR\n  A[NBA] --&gt; B(Houston Rockets)\n  B --&gt; C{Roaster}\n  C --&gt; D[Jalen Green]\n  C --&gt; E[Amen Thompson]"
+  },
+  {
+    "objectID": "index.html#section-6-instance-of-citation",
+    "href": "index.html#section-6-instance-of-citation",
+    "title": "simple_quarto_website",
+    "section": "Section 6: Instance of citation",
+    "text": "Section 6: Instance of citation\nCitation: Data Science is very useful (Bell and Koren 2007)"
+  },
+  {
+    "objectID": "about.html#section-1-output-plot",
+    "href": "about.html#section-1-output-plot",
+    "title": "About",
+    "section": "Section 1: Output plot",
+    "text": "Section 1: Output plot\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nxpoints = np.array([1, 8])\nypoints = np.array([3, 10])\n\nplt.plot(xpoints, ypoints)\nplt.show()"
+  },
+  {
+    "objectID": "about.html#section-2",
+    "href": "about.html#section-2",
+    "title": "About",
+    "section": "Section 2:",
+    "text": "Section 2:\nSecond section in this file"
+  },
+  {
+    "objectID": "slides/slides.html",
+    "href": "slides/slides.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Houston Rockets"
+  },
+  {
+    "objectID": "slides/slides.html#page-1",
+    "href": "slides/slides.html#page-1",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Houston Rockets"
+  },
+  {
+    "objectID": "slides/slides.html#page-2",
+    "href": "slides/slides.html#page-2",
+    "title": "simple_quarto_website",
+    "section": "Page 2",
+    "text": "Page 2\n\n\n\nReal Madrid"
+  },
+  {
+    "objectID": "slides/slides.html#page-3",
+    "href": "slides/slides.html#page-3",
+    "title": "simple_quarto_website",
+    "section": "Page 3",
+    "text": "Page 3"
+  },
+  {
+    "objectID": "slides/slides.html#slides-4",
+    "href": "slides/slides.html#slides-4",
+    "title": "simple_quarto_website",
+    "section": "Slides 4",
+    "text": "Slides 4\nCitation: (Bell and Koren 2007)"
+  }
+]

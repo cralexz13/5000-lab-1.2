@@ -1,0 +1,65 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+# Table of Content:
+- Education Background
+- Math Equations
+- Footnotes
+- Embedded images and video
+- Mermaid Diagram
+- Instance of citation
+
+
+## Section 1: Education Background
+
+| College | Major | Degree
+| ------- | --- | --- |
+| University of Illinois at Urbana-Champaign  | Mathematics | Bachelor's |
+| University of Rochester    | Business Analytics | Master's |
+| Georgetown University| Data Science and Analytics | Master's |
+
+
+## Section 2: Math equation
+
+Here is an in-line math equation $f(x)=\frac{e^{x^2}}{2}$
+
+Non inline-math equation:
+
+$$g(x)=x^n \rightarrow \frac{\partial g}{\partial x}=n x^{n-1}$$
+
+## Section 3: Footnotes
+
+> "Take risks now. Do something bold. You won’t regret it." - Elon Musk
+
+
+## Section 4: Embedded images and video
+
+![Houston Rockets](images/download.png)
+
+![Real Madrid](images/og-image.png)
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+
+## Section 5: Mermaid Diagram
+
+```{mermaid}
+flowchart LR
+  A[NBA] --> B(Houston Rockets)
+  B --> C{Roaster}
+  C --> D[Jalen Green]
+  C --> E[Amen Thompson]
+```
+
+
+## Section 6: Instance of citation
+
+Citation: Data Science is very useful [@bell2007lessons]
+
